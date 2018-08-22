@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+			<name type="string">Generic (corporate)</name>
+            <texture>Liveries-300/blank.png</texture>
+        </livery>
+    </model>
+    <aircraft-class>gate</aircraft-class>
+    <aircraft-operator>BOE</aircraft-operator>
+</sim>
+</PropertyList>

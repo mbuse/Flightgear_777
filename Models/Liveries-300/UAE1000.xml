@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Emirates (1000th 777)</name>
+            <texture>Liveries-300/UAE1000.png</texture>
+        </livery>
+    </model>
+    <aircraft-class>gate</aircraft-class>
+    <aircraft-operator>UAE</aircraft-operator>
+</sim>
+</PropertyList>

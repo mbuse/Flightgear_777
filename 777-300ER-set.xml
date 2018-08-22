@@ -1,18 +1,35 @@
 <PropertyList include="777-set-common.xml">
 
     <sim n="0">
-        <description>Boeing 777-300ER</description>
+        <description>Boeing 777-300ER with GE90-115B engines</description>
         <aero>777-300ER</aero>
         <max-payload type="double">408060</max-payload>
         <startup>
             <splash-texture>Aircraft/777/splash-300ER.png</splash-texture>
         </startup>
+		<previews>
+			<preview>
+				<type>exterior</type>
+				<splash type="bool">true</splash>
+				<path>Splash/cockpit.png</path>
+			</preview>
+			<preview>
+				<type>exterior</type>
+				<splash type="bool">true</splash>
+				<path>Splash/wing1.png</path>
+			</preview>
+			<preview>
+				<type>exterior</type>
+				<splash type="bool">true</splash>
+				<path>Splash/wing2.png</path>
+			</preview>
+		</previews>
 
         <model n="0">
             <path>Aircraft/777/Models/777-300ER.xml</path>
             <livery>
-                <file type="string">JAL</file>
-                <texture>Liveries-300/paint1.png</texture>
+                <file type="string">AIC.png</file>
+                <texture>Liveries-300/AIC.png</texture>
             </livery>
         </model>
         <view n="0">
@@ -62,7 +79,7 @@
         <cdu n="0">
             <ident>
                 <model>777-300ER</model>
-                <engines>RR Trent 877</engines>
+                <engines>GE90-115B</engines>
             </ident>
         </cdu>
     </instrumentation>

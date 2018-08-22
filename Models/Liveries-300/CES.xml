@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+			<name type="string">China Eastern</name>
+            <texture>Liveries-300/CES.png</texture>
+        </livery>
+    </model>
+    <aircraft-class>gate</aircraft-class>
+    <aircraft-operator>CES</aircraft-operator>
+</sim>
+</PropertyList>

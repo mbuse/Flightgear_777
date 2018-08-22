@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Air India (Star Alliance)</name>
+            <texture>Liveries-300/VT-ALJ.png</texture>
+        </livery>
+    </model>
+    <aircraft-class>gate</aircraft-class>
+    <aircraft-operator>AIC</aircraft-operator>
+</sim>
+</PropertyList>
